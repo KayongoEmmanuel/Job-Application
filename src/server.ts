@@ -10,6 +10,7 @@ import helmetMiddleware from "./middleware/helmet.js";
 import corsMiddleware from "./middleware/cors.js";
 
 const app = express();
+app.set('trust proxy', 1);
 const PORT = process.env.PORT || 3000;
 
 // Get the current absolute directory path
