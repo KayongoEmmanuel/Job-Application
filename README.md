@@ -6,6 +6,11 @@ The API provides user authentication, protected endpoints, and job application m
 
 ---
 
+## Live Demo
+https://job-application-rfot.onrender.com
+
+---
+
 ##  Features
 
 -  **User Authentication** — User registration and login using password hashing and JWT-based authentication.
